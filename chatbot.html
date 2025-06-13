@@ -1,11 +1,46 @@
-﻿<!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Chatbot</title>
+  <meta charset="UTF-8">
+  <title>Chatbot</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f6fa;
+      margin: 0;
+      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: start;
+      height: 100vh;
+    }
+
+    .title {
+      font-size: 22px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .chatbox {
+      width: 320px;
+      height: 500px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      background-color: #fff;
+      position: relative;
+    }
+  </style>
 </head>
 <body>
-    <h3 style="text-align:center;">Welcome to Support Chat</h3>
-    <!-- Paste your Tidio script below -->
+
+  <div class="title">💬 Welcome to Support Chat</div>
+
+  <div class="chatbox">
+    <!-- Tidio chatbot will float over this -->
     <script src="//code.tidio.co/fzeyi0rc8bakyt3rsfzcwst5rlre7yik.js" async></script>
+  </div>
+
 </body>
 </html>
